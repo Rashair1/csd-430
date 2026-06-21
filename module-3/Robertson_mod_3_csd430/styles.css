@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #003366;
+    margin-top: 0;
+}
+
+.description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0055aa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #003366;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
